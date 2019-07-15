@@ -7,7 +7,17 @@ A repo for a [ktlint](https://ktlint.github.io/) bot that runs against the Githu
 - [Kotlin](https://kotlinlang.org/)
 - [Gradle](https://gradle.org/)
 - [Vert.x](https://vertx.io/)
+- [ktlint](https://ktlint.github.io/)
 
 ## Streams
 
 - Stream 1 - July 15th 6pm CDT
+
+## TODO
+
+- [ ] setup multi-module gradle setup
+- [ ] setup gradle dependency structure
+- [ ] vert.x webhook http endpoint
+- [ ] vert.x coroutine support
+- [ ] ktlint integration
+- [ ] github checks API integration 
