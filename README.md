@@ -1,5 +1,5 @@
 # ktlint-bot
-A repo for a ktlint bot that runs against the Github checks API. Livestreaming on [twitch](https://www.twitch.tv/zsiegel87/)
+A repo for a [ktlint](https://ktlint.github.io/) bot that runs against the Github checks API. Livestreaming on [twitch](https://www.twitch.tv/zsiegel87/)
 
 ## Relevant Links
 - [Github Checks API v2](https://developer.github.com/v3/checks/)
