@@ -1,0 +1,5 @@
+
+dependencies {
+    implementation libraries.kotlin_jdk8
+    implementation libraries.vertx
+}

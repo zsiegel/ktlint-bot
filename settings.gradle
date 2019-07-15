@@ -1,0 +1,3 @@
+rootProject.name = 'ktlint-bot'
+include 'lib-github-checks'
+include 'webhook'

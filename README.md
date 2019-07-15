@@ -15,9 +15,9 @@ A repo for a [ktlint](https://ktlint.github.io/) bot that runs against the Githu
 
 ## TODO
 
-- [ ] setup multi-module gradle setup
-- [ ] setup gradle dependency structure
-- [ ] vert.x webhook http endpoint
+- [x] setup multi-module gradle setup
+- [x] setup gradle dependency structure
+- [x] vert.x webhook http endpoint
 - [ ] vert.x coroutine support
 - [ ] ktlint integration
 - [ ] github checks API integration 

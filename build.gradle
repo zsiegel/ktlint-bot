@@ -1,0 +1,52 @@
+buildscript {
+
+    ext {
+
+        kotlin_plugin_version = '1.3.41'
+
+        kotlin_std_lib_version = '1.3.41'
+        vertx_version = '3.7.1'
+
+        libraries = [
+                kotlin_jdk8 : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_std_lib_version",
+                vertx : [
+                        "io.vertx:vertx-core:$vertx_version",
+                        "io.vertx:vertx-web:$vertx_version",
+                        "io.vertx:vertx-lang-kotlin:$vertx_version",
+                ]
+        ]
+    }
+
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_plugin_version"
+    }
+}
+
+subprojects {
+    apply plugin: 'kotlin'
+
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+
+    gradle.projectsEvaluated {
+
+        tasks.withType(JavaCompile) {
+            sourceCompatibility = "1.8"
+            targetCompatibility = "1.8"
+        }
+
+        compileKotlin {
+            kotlinOptions {
+                jvmTarget = '1.8'
+                allWarningsAsErrors = true
+            }
+        }
+    }
+}
