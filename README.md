@@ -15,7 +15,11 @@ A repo for a [ktlint](https://ktlint.github.io/) bot that runs against the Githu
 - [Youtube replay](https://youtu.be/wIsFEgrNLsc?t=697)
 - [Tagged Code](https://github.com/zsiegel/ktlint-bot/releases/tag/stream-01)
 
-In this stream we setup a multi-module gradle project - after battling a directory issue for awhile! We then organized our gradle build files and setup a quick Vert.x http server to test our dependencies.
+In this stream we complete the following.
+- Setup a multi-module gradle project
+	- Battled with a directory issue for awhile
+- Organized our gradle build files
+- Setup an example Vert.x http server to test our dependencies
 
 ### Stream 2 - TBD
 - [ ] explore the vert.x event loop
