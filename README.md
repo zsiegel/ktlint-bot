@@ -15,15 +15,20 @@ A repo for a [ktlint](https://ktlint.github.io/) bot that runs against the Githu
 - [Youtube replay](https://youtu.be/wIsFEgrNLsc?t=697)
 - [Tagged Code](https://github.com/zsiegel/ktlint-bot/releases/tag/stream-01)
 
-In this stream we complete the following.
+In this stream we completed the following.
 - Setup a multi-module gradle project
 	- Battled with a directory issue for awhile
 - Organized our gradle build files
 - Setup an example Vert.x http server to test our dependencies
 
 ### Stream 2 - July 16th 6pm CDT
-- [x] explore the vert.x event loop
-- [x] vert.x coroutine support
+- [Youtube replay](https://youtu.be/KlBeqbBnXaA)
+- [Tagged Code](https://github.com/zsiegel/ktlint-bot/releases/tag/stream-02)
+
+In this stream we completed the following.
+
+- explored the vert.x event loop
+- explored vert.x coroutine support
 
 ## TODO
 - [ ] ktlint integration
