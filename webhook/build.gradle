@@ -1,5 +1,6 @@
 
 dependencies {
     implementation libraries.kotlin_jdk8
+    implementation libraries.kotlin_coroutines
     implementation libraries.vertx
 }

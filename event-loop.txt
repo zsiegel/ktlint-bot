@@ -1,0 +1,14 @@
+
+Blocking Web Framework
+----------------------
+Request -> Thread() { //WORK }
+
+Non-Blocking IO Framework
+Vert.x runs on top of Netty
+--------------------------
+
+ThreadPool(4)
+while(true) {
+    request -> queue()
+    queue().forEach { ThreadPool(doWork()) }
+}

@@ -21,9 +21,9 @@ In this stream we complete the following.
 - Organized our gradle build files
 - Setup an example Vert.x http server to test our dependencies
 
-### Stream 2 - TBD
-- [ ] explore the vert.x event loop
-- [ ] vert.x coroutine support
+### Stream 2 - July 16th 6pm CDT
+- [x] explore the vert.x event loop
+- [x] vert.x coroutine support
 
 ## TODO
 - [ ] ktlint integration

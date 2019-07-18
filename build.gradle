@@ -9,10 +9,12 @@ buildscript {
 
         libraries = [
                 kotlin_jdk8 : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_std_lib_version",
+                kotlin_coroutines: "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.0-M2",
                 vertx : [
                         "io.vertx:vertx-core:$vertx_version",
                         "io.vertx:vertx-web:$vertx_version",
                         "io.vertx:vertx-lang-kotlin:$vertx_version",
+                        "io.vertx:vertx-lang-kotlin-coroutines:$vertx_version",
                 ]
         ]
     }
@@ -36,11 +38,6 @@ subprojects {
     }
 
     gradle.projectsEvaluated {
-
-        tasks.withType(JavaCompile) {
-            sourceCompatibility = "1.8"
-            targetCompatibility = "1.8"
-        }
 
         compileKotlin {
             kotlinOptions {
