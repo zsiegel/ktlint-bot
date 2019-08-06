@@ -30,6 +30,15 @@ In this stream we completed the following.
 - explored the vert.x event loop
 - explored vert.x coroutine support
 
+### Stream 3 - August 5th 5:15pm CDT
+- [Youtube replay](https://youtu.be/_shULsQwNg8)
+- [Tagged Code](https://github.com/zsiegel/ktlint-bot/releases/tag/stream-03)
+
+In this stream we completed the following.
+
+- created a coroutine extension function
+- created a function to run ktlint on a kotlin file
+
 ## TODO
-- [ ] ktlint integration
+- [x] ktlint integration
 - [ ] github checks API integration 
